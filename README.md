@@ -9,10 +9,8 @@ DB_PASSWORD=
 DB_HOST=
 DB_PORT=
 BACKEND_URL=
-DECISION_AGENT_ID=
-IMMIGRATION_AGENT_ID=
-FINANCIAL_AGENT_ID=
+AGENT_ID=
 
 3. Configure your db
 4. Start a webhook server using uvicorn webhook_server:app --port 8000
-5. Start a clien app using python3 client.py
+5. Start a client server using uvicorn client_server:app --port 9000
